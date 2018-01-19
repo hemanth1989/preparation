@@ -1,0 +1,42 @@
+    1  mkdir test
+    2  cd test
+    3  ls -ltr
+    4  cd ..
+    5  ssh-keygen -t rsa
+    6  ls -ltra
+    7  cd .ssh
+    8  ls -ltr
+    9  cat id_rsa.pub
+   10  cd ..
+   11  cd test/
+   12  git --config global list
+   13  git --config list
+   14  git config --list
+   15  git config --global user.name hemanth
+   16  git config --list
+   17  git config --global user.email hemanth8118@gmail.com
+   18  git config --list
+   19  git clone git@github.com:hemanth1989/preparation.git
+   20  git config --list
+   21  ls -ltr
+   22  cd preparation/
+   23  git push origin master
+   24  cd..
+   25  cd ..
+   26  ls -ltr
+   27  cd preparation
+   28  ls -ltr
+   29  ls -ltra
+   30  cd .git
+   31  ls -ltra
+   32  cd ..
+   33  vi test.txt
+   34  git ststus
+   35  git status
+   36  git add test.txt
+   37  git ststus
+   38  git status
+   39  git commit 
+   40  history
+   41  history
+   42  history >> mygit.history
